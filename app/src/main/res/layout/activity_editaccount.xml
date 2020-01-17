@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".editaccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="E D I T   A C C O U N T"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:textSize="35dp" />
+
+
+            <EditText
+                android:id="@+id/name_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="N a m e"
+                android:textColorHint="@color/colorAccent"
+                android:padding="15dp" />
+
+
+            <EditText
+                android:id="@+id/position_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="P o s i t i o n"
+                android:textColorHint="@color/colorAccent"
+                android:padding="15dp" />
+
+
+
+
+            <EditText
+                android:id="@+id/age_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="A g e"
+                android:inputType="numberDecimal"
+                android:digits="0123456789"
+                android:textColorHint="@color/colorAccent"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/contact_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="C o n t a c t N u m b e r"
+                android:inputType="numberDecimal"
+                android:digits="0123456789"
+                android:textColorHint="@color/colorAccent"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/add_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="R e s i d e n t i a l A d d r e s s"
+                android:textColorHint="@color/colorAccent"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/email_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="E m a i l"
+                android:textColorHint="@color/colorAccent"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/password_reg"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="P a s s w o r d"
+                android:textColorHint="@color/colorAccent"
+                android:inputType="textPassword"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/reg_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:onClick="update"
+                android:padding="15dp"
+                android:text="U P D A T E "
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

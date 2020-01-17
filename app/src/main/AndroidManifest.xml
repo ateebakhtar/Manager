@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.manager">
+
+    <application
+        android:name=".app"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Restauranto Manager"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".inventory" />
+        <activity android:name=".Login" />
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".mainmenu" />
+        <activity android:name=".managermenu" />
+        <activity android:name=".order" />
+        <activity android:name=".viewworking" />
+        <activity android:name=".workinglist" />
+        <activity android:name=".editworking" />
+        <activity android:name=".viewaccount" />
+        <activity android:name=".editaccount"></activity>
+    </application>
+
+</manifest>
